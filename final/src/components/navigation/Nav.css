@@ -1,0 +1,48 @@
+.wrapper {
+    background-color: rgb(84, 230, 145);
+    transition: all .5s ease;
+}
+
+.wrapper-dark-nav {
+    background-color: rgb(19, 58, 35);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    width: 80%;
+}
+
+li{
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin-left: 100px;
+    cursor: pointer;
+}
+span{
+    margin-right: 100px;
+}
+
+.theme-toggler {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.wrapper-components{
+    background-color: white;
+}
+
+.wrapper-components-dark{
+    color: white;
+    background-color: rgb(53, 53, 53);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}

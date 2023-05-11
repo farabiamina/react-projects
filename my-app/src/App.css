@@ -1,0 +1,42 @@
+#box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+  width: 40%;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 40px;
+}
+
+#main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+  color: #4CAF50;
+}

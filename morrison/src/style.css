@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Festive&family=Henny+Penny&family=Shadows+Into+Light&display=swap');
+*{
+    font-family: Dancing+Script;
+}
+.movie-list{
+    padding: 80px;
+   width: 1100px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   background-color: antiquewhite;
+   
+}
+.movie-list h1{
+    text-align: center;
+    font-size: 40px;
+}
+.movie-item  {
+    padding: 20px;
+    width: 200px;
+    display: inline-block;
+    margin: 0;
+    box-shadow: 4px 0 16px rgba(255, 255, 2550, 0.3)
+}
+.movie-item img{
+    width: 200px;
+    border-radius: 4px;
+    height: 300px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.movie4 h1{
+    font-size: 35px;
+}
+.container2{
+    padding-left: 100px;
+    display: inline;
+}
+.container2 button{
+    padding: 10px;
+}

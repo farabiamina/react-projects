@@ -1,0 +1,13 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie-item {
+    width: 300px;
+}
+
+.movie-item img {
+    width: 100%;
+}

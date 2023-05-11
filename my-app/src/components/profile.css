@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    justify-content: column;
+    align-items: column;
+    flex-direction: column;
+}
+
+img {
+    height: 190px;
+}
+
+p {
+    font-weight: 500;
+    margin: 0;
+    margin-top: 16px;
+}
+
+span, li {
+    color:#4CAF50;;
+}
+
+#skills {
+    height: 130px;
+    margin-top: 10px;
+}
